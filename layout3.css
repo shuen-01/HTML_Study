@@ -1,0 +1,58 @@
+*{
+    margin: 0; /*바깥여백*/
+    padding: 0; /*안쪽여백*/
+}
+
+body{
+    background-color: #f2f0f0;
+    font-family: '맑은 고딕';
+    font-size: 12px;
+    color: #444444;
+}
+ul{
+    list-style: none;
+}
+
+#logo{
+    padding: 30px 0 0 30px;
+    float: left;
+}
+
+#top_menu{
+    float: right;
+    margin:40px 10px 0 0;
+}
+
+#top_menu li{
+    display: inline;
+}
+#main_menu{
+    background-color: #555555;
+    padding: 12px; /*안쪽여백 상하좌우 12px*/
+    margin-top: 15px;
+    color: #f2f0f0;
+    text-align: center;
+}
+#main_menu li{
+    display: inline;
+    margin-left: 50px;
+}
+
+#new .item{
+    float: left;
+    text-align: center;
+    margin: 20px 10px 0 10px;
+}
+
+#new h3{
+    margin-top: 10px;
+    padding-left: 10px;
+    border-bottom: solid 2px #9bc32a;
+}
+
+#new h3 span{
+    color: #9bc32a;
+}
+.clear{
+    clear: both; /*left, right 둘 다*/
+}

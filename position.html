@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            width: 500px;
+            height: 300px;
+            border: solid 3px #000;
+            position: relative;
+        }
+        #box1,#box2,#box3{
+
+            width: 80px;
+            height: 80px;
+
+        } 
+        #box1{background-color: red;}
+        #box2{
+            background-color: blue;
+            position: relative; /*상대주소*/
+            top: 50px;
+            left: 50px;
+        }
+        #box3{
+            background-color: green;
+            position:absolute;/*절대주소*/
+            left: 0px;
+            top:0px
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="box1">a</div>
+        <div id="box2">b</div>
+        <div id="box3">c</div>
+    </div>
+</body>
+</html>

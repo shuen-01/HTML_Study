@@ -1,0 +1,29 @@
+div{
+    border-radius: 20px;
+    /* "#"이 없는 경우 태그를 의미한다 */
+}
+
+#box_a{
+    float: left;
+    width: 200px;
+    height: 150px;
+    border: solid 2px black;
+    /* # : id속성을 꾸며줄 때 사용한다 */
+}
+
+#box_b{
+    float: left;
+    width: 200px;
+    height: 150px;
+    border: solid 2px red;
+    /* # : id속성을 꾸며줄 때 사용한다 */
+}
+
+.box_c{
+    float: left;
+    width: 200px;
+    height: 150px;
+    border: solid 2px green;
+    /* # : id속성을 꾸며줄 때 사용한다 */
+}
+
