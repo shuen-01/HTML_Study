@@ -1,0 +1,64 @@
+aside{
+    width:190px;
+    float: left;
+}
+aside #login_box{
+    width:186px;
+    height: 120px;
+    border: solid 1px #ddd;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+aside #login_title{
+    margin: 10px 0 0 10px;
+}
+
+aside #login_input{
+    float: left;
+}
+
+aside #login_btn{
+    margin: 3px 0 0 5px;
+    float: left;
+}
+
+aside #login_input input{
+    width: 100px;
+    height: 20px;
+    border: solid 1px #ddd;
+
+}
+
+aside #join_search{
+    float: left;
+    margin:10px 0 0 5px;
+}
+
+aside #guestbook{
+    width: 186px;
+    height: 135px;
+    margin-top: 15px;
+    background-color: #eee;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+
+}
+
+aside #guestbook_title{
+    width: 165px;
+    padding: 10px 0 0 5px;
+    margin: 0 0 0 8px;
+    border-bottom: solid 1px #ccc;
+}
+
+aside #guestbook ul{
+    margin: 10px 0 0 40px;
+
+}
+
+aside #guestbook li{
+    margin: top 5px;
+    list-style-image: url("./img[12]/icon_blue.gif");
+    font-size: 12px;
+}
